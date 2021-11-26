@@ -1,0 +1,21 @@
+body{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100vh; /*viewport heigth */
+     border: 1px solid red;
+}
+
+div{
+    display: flex; /*aplica por default un flex-direction row*/
+    justify-content: space-between;
+}
+
+section{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; /*hace un circulo*/
+    background-color: aquamarine;
+    border: 1px solid black;
+
+}
